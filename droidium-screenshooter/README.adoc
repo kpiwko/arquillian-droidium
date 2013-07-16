@@ -1,0 +1,7 @@
+== Arquillian Droidium Screenshooter extension
+
+== not workable & under development
+
+Screenshooter extension for Arquillian Droidium is an implementation of Arquillian screenshooter API.
+
+This extension is in development and it is not functioning right now at all.

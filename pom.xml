@@ -97,6 +97,7 @@
         <module>droidium-container</module>
         <module>droidium-native</module>
         <module>droidium-web</module>
+        <module>droidium-screenshooter</module>
     </modules>
 
     <!-- Build -->
