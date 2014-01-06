@@ -151,7 +151,7 @@ public class SelendroidServerManager {
             waitUntilSelendroidServerCommunication(port);
         } catch (Exception ex) {
             removePortForwarding(port, port);
-            throw new AndroidExecutionException(ex.getMessage());
+            throw new AndroidExecutionException(ex.getMessage(), ex.getCause() !=null ? ex.getCause() : ex);
         }
     }
 
